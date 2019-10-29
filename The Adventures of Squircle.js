@@ -422,3 +422,11 @@ var Module=typeof Module!=="undefined"?Module:{};var moduleOverrides={};var key;
 		}
 	}
 })();
+
+var input = document.getElementById("myInput");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 27) {
+	window.location.href = 'https://forms.gle/HyyPun5iSwA42m6b7';
+  }
+}); 
